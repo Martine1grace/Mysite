@@ -1,0 +1,99 @@
+.body{
+    font-family:"inter" , sans-serif;
+    background-image:linear-gradient(to bottom,rgba(20, 218, 30, 0.526),rgba(24, 24, 26, 0.281)) ;
+     width: 100%;
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom center;
+    
+}
+.header{
+background-image:linear-gradient(to bottom,rgba(20, 218, 30, 0.526),rgba(24, 24, 26, 0.281));
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom center;
+}
+
+.footer{
+    padding: 1.8rem;
+    margin-top: 0%;
+    justify-content: space-between;
+     background-color: rgba(39, 151, 5, 0.986); 
+    display: flex;
+    box-shadow: 0 1.2rem 2.4rem rgba(27, 26, 26, 0.492);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+nav{
+    padding: 1.8rem;
+    margin-top: 0%;
+    justify-content: space-between;
+     background-color: green; 
+    display: flex;
+    box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.492);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.nav-link{
+    font-size: 2rem;
+    color: #fff;
+}
+.nav-link:link,
+.nav-link:visited
+{
+    color: rgb(216, 200, 20);
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-link:hover,.nav-link:active{
+    color: rgb(9, 14, 4);
+    cursor: pointer;
+}
+.contents{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 3rem;
+    float: left;
+
+
+}
+.profile{
+    width: 25rem;
+    background-color: rgba(255, 0, 0, 0.096);
+    box-shadow: 1rem 1.2rem 2.4rem rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column; 
+    border-radius: 0.8rem;
+    float: right;
+    margin-right: 40%;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.profiles{
+    width: 25rem;
+    background-color: rgba(255, 0, 0, 0.096);
+    box-shadow: 1rem 1.2rem 2.4rem rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column; 
+    border-radius: 0.8rem;
+    float: right;
+    margin-right: 40%;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+
+}
